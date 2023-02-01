@@ -1,0 +1,70 @@
+html,body{
+    height:100%;
+    margin :0;
+    font-size: 16px;
+    font-family:"Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+
+}
+.pimg1{
+    background-image: url(https://th.bing.com/th/id/OIP.jHvTOSF7924Ah63W7mozxQHaEo?pid=ImgDet&rs=1);
+    min-height: 100%;
+   
+}
+.pimg1 , .pimg2 , .pimg3, .pimg4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.pimg2{
+    background-image: url(https://th.bing.com/th/id/R.616a8f9fc897e4be3450e83cc349163b?rik=99NhcoYMbpPmbA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f200876-nature-landscape-water.jpg&ehk=QcolhuooocpOvG0IUsYFYzY1xMzqLRuXNENX8S3%2btyI%3d&risl=&pid=ImgRaw&r=0);
+    min-height: 400px;
+   
+}
+.pimg3{
+    background-image: url(https://th.bing.com/th/id/OIP.XmUw92I_3goItl_vHlKjbwHaFB?pid=ImgDet&rs=1);
+    min-height: 400px;
+   
+}
+.pimg4{
+    background-image: url(https://i.pinimg.com/originals/60/e7/d3/60e7d3926993c0c7a202204fbb9a1a90.jpg);
+    min-height: 100%;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+    
+}
+.textBg{
+    background: #313534;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: justify;
+
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
